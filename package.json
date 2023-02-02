@@ -5,13 +5,15 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "parcel build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cobiwave/simplefolio"
   },
-  "homepage": "https://github.com/cobiwave/simplefolio#readme",
+  "homepage": "http://vinsonlaiono.github.io/simplefolio",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "gh-pages": "^5.0.0",
